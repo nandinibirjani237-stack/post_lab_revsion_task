@@ -1,4 +1,113 @@
 # post_lab_revsion_task
+# task 1 
+#include <stdio.h>
+int main() {
+float distance;
+int time:
+float fare = 0.0;
+printf("enter the distance");
+scanf("%f",&distance);
+printf("enter the time"): scanf("%d",&time):
+if (distance<=0 ){
+printf("invalid distance");
+if (distance<=1){
+fare=50.0;
+elset
+fare
+=50+ (distance-1)*22,
+}
+if(time<6 || time>22 ){
+fare = fare+40;
+printf("%.2f", fare);
+result 0 ; }}
+
+# task 2
+#include <stdio.h>
+int main() {
+float total_bill;
+int membership;
+float discount = 0.0;
+float payable;
+printf("enter total_bill");
+scanf("%f",&total_bill);
+if (total_bill<500){
+printf("no discount");
+return 1;
+}
+printf("enter membership status ( 1 mean member , 0 means not a member)");
+scanf ("%d",&membership);
+if (membership==1){
+if (total_bill>=500 || total_bill<=1900){
+18 discount = total_bill * 0.10;
+}else{
+discount = total_bill * 0.05;
+
+}
+}
+if (membership==1){
+if (total_bill>=2000 ){
+discount = total_bill * 0.15;
+}
+else {
+discount = total_bill * 0.08;}
+}
+payable = total_bill - discount;
+printf("%.2f\n",discount);
+printf(%. 2f",payable):
+return 0;}
+}
+
+
+# task 3 
+#include <stdio.h>
+int main() {
+int obtain_ marks;
+printf("enter the marks\n");
+scanf("%d", &obtain_marks);
+if (obtain_marks>100| |obtain_marks<0){
+printf( "invalid");
+return 1;}
+if (obtain_marks>=90){
+printf("A+ , Pass");
+felse if (obtain_marks>=80||obtain_marks<=89) {
+printf("A , Pass");
+}else if (obtain_marks>=70| |obtain_marks<=79){
+printf("B , Pass");
+}else if (obtain_marks>=60| |obtain_marks<=69){
+printf("C, Pass" ) ;}
+else if (obtain_marks>=50| |obtain_marks<=59){
+printf("D");}
+else!
+printf("fail");}
+return 0;}
+
+# task 4
+#include <stdio.h>
+int main() {
+int tank_capacity, rounded minute;
+float motor_fill, electricity, remaining liters ;
+int water_level;
+float required_time;
+
+printf("enter tank_capacity");
+
+scanf ("%d",&tank_capacity);
+
+printf("enter water_level "):
+scanf ("%d",&water_Level);
+printf("enter motor_fill ");
+scanf ("%f",&motor_fill);
+if (water_level>-tank_capacity){
+printf("tank already full");
+return 1;}
+remaining_liters = tank_capacity - water_level;
+required_time = remaining liters / motor_fill;
+rounded_minute = (int) required_time+ (required_time > (int) required_time);
+electricity = 3.50 * rounded minute;
+printf("%. 2f\n", required_time);
+printf(%.2f\n", electricity);
+return 0;}
+
 # task 5
 #include <stdio.h>
 
